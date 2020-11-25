@@ -6,3 +6,5 @@ install(FILES "Main.cpp" DESTINATION src)
 
 include(CTest)
 add_test("Test1" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}")
+
+include(CPack)
